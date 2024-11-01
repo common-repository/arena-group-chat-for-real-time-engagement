@@ -1,0 +1,39 @@
+{
+  "name": "arena-chat-tool-block",
+  "version": "1.0.0",
+  "description": "A custom Gutenberg block plugin using React",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./src/arena-chat-tool-admin.css && wp-scripts build src/agcfre_admin.tsx",
+    "start": "wp-scripts start src/agcfre_admin.tsx"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.56.2",
+    "@types/react": "^18.3.8",
+    "@wordpress/scripts": "^29.0.0",
+    "tailwindcss": "^3.4.12",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-radio-group": "^1.2.0",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.2",
+    "@tanstack/react-query": "^5.56.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.441.0",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "sonner": "^1.5.0",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "ts-loader": "^9.5.1",
+    "zod": "^3.23.8"
+  }
+}

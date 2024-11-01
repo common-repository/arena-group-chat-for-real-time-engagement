@@ -1,0 +1,24 @@
+{
+  "name": "agcfre/group-chat",
+  "autoload": {
+    "files": [
+      "tests/Utilities/global_functions.php",
+      "tests/Utilities/FunctionMocker.php"
+    ],
+    "psr-4": {
+      "AGCFRE\\GroupChat\\Includes\\Admin\\": "includes/admin/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Cesar William",
+      "email": "cesarwbr@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^11.4"
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}
